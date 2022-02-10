@@ -30,12 +30,11 @@
 .box {
   font-size: 50px;
   color: white;
-  /* width: 300px;  */
+  width: 200px;
   /* width: 33.333333%; */
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
-
 }
 /****************************  container properties**************************** */
 
@@ -44,15 +43,27 @@ flex-direction - specifies how items are placed in a flex container defining the
 flex-direction :row , flex-direction :row-reverse 
 flex-direction :column ,flex-direction :column-reverse  
 ********************************
-*/
-/* justify-content */
 
-/* flex-wrap - specifies whether items are forced into a single line or can be wrapped into multiple line
+/********************************* 
+justify-content - defines how space is distributed between items in a flex container.
+1) justify-content: flex-end shifts everything to end. 
+2) justify-content: flex-start shifts everything to beginning 
+3) justify-content: center - 
+********************************** /
+
+/**********************************  
+flex-wrap - specifies whether items are forced into a single line or can be wrapped into multiple line
 set items at 300px width show items without wrap then put wrap to show how it wraps to next line.
 flex-wrap: wrap & flex-wrap: wrap-reverse
 */
-/* align-items  */
-/* alignt-content */
+/********************************* align-items  **********************************/
+ /* 
+ align-items - defines how a space is distributed between items in flex container
+ along cross axis.
+ 
+ */
+/********************************* align-items  **********************************/
+
 /****************************  container properties **************************** */
 
 /**************************** flex item props **************************** */
@@ -64,15 +75,35 @@ flex-wrap: wrap & flex-wrap: wrap-reverse
 
 /**************************** flex item props **************************** */
 .container {
-
   display: flex; /* first thing to get it to register flex */
   border: 8px solid black;
   height: 80vh;
-  flex-wrap: wrap;
+  /************************ Flex ************************/
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse */
   /* flex-direction: row; */
   /* flex-direction: column; */
-/* flex-direction: row-reverse; */
- 
-}
+  /* flex-direction: row-reverse; */
+  /************************ Flex ************************/
 
+  /***************************Justify Content***************************/
+  /* justify content controls horizontal alignment */
+  
+  /* justify-content: flex-end  */
+  /* justify-content: flex-start  */
+  /* justify-content: center  */
+  /* justify-content: space-between */
+  /* justify-content: space-around */
+  /* justify-content: space-evenly; */
+/***************************Justify Content***************************/
+
+
+/********************************* align-items  **********************************/
+/* align-items: shorter word: vertical alignment  */
+/* align-items: center; */
+/* align-items: flex-start */
+/* align-items: flex-end; */
+
+
+/********************************* align-items  **********************************/
+}
