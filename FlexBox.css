@@ -1,44 +1,78 @@
 /* box colors: */
 .box-1 {
-    background: #9D00FF; 
-  }
-  .box-2 {
-    background: #fa6800;
-  }
-  .box-3 {
-    background: #f0a30a; 
-  }
-  .box-4 {background:#CC00FF; ; }
-  .box-5 {background: #a4c400;}
-  .box-6 {background: #00FF33;}
-  .box-7 {background: #00aba9;}
-  .box-8 {background: #1ba1e2;} 
-  .box-9 {background: #0033FF}
+  background: #9d00ff;
+}
+.box-2 {
+  background: #fa6800;
+}
+.box-3 {
+  background: #f0a30a;
+}
+.box-4 {
+  background: #cc00ff;
+}
+.box-5 {
+  background: #a4c400;
+}
+.box-6 {
+  background: #00ff33;
+}
+.box-7 {
+  background: #00aba9;
+}
+.box-8 {
+  background: #1ba1e2;
+}
+.box-9 {
+  background: #0033ff;
+}
+/*  */
+.box {
+  font-size: 50px;
+  color: white;
+  /* width: 300px;  */
+  /* width: 33.333333%; */
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 
-.box{
-    font-size:50px;
-    color: white;
-    width: 50px;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
+}
+/****************************  container properties**************************** */
+
+/********************************* 
+flex-direction - specifies how items are placed in a flex container defining the main axis and direction 
+flex-direction :row , flex-direction :row-reverse 
+flex-direction :column ,flex-direction :column-reverse  
+********************************
+*/
+/* justify-content */
+
+/* flex-wrap - specifies whether items are forced into a single line or can be wrapped into multiple line
+set items at 300px width show items without wrap then put wrap to show how it wraps to next line.
+flex-wrap: wrap & flex-wrap: wrap-reverse
+*/
+/* align-items  */
+/* alignt-content */
+/****************************  container properties **************************** */
+
+/**************************** flex item props **************************** */
+/* order */
+/* flex */
+/* flex-grow */
+/* flex-shrink */
+/* align-self */
+
+/**************************** flex item props **************************** */
+.container {
+
+  display: flex; /* first thing to get it to register flex */
+  border: 8px solid black;
+  height: 80vh;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+/* flex-direction: row-reverse; */
+ 
 }
 
-
-.container{
-    display:flex; 
-    border: 8px solid black;
-    height: 60vh;
-}
-
-
-
-/* #9D00FF
-
-#FFFF33
-#00FF00
-#00FFFF
-#099FFF
-#FF0099
-#6E0DD0
-#CC00FF */

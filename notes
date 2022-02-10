@@ -1,0 +1,32 @@
+1.
+Question :  What is Flex box ? 
+
+Answer: more efficient way to to lay 
+out and aling and distribute space 
+between items in a container.
+
+2. What is Viewport ? 
+
+Answer:
+
+1vh = 1% of viewport height.
+
+A viewport represents the area in computer graphics being currently viewed. In web browser terms, it is generally the same as the browser window, excluding the UI, menu bar, etc. That is the part of the document you are viewing.
+
+Documents like this article may be very long. Your viewport is everything that is currently visible, notably, the "what is a viewport" section, and perhaps some of the navigation menu. The size of the viewport depends on the size of the screen, whether the browser is in fullscreen mode or not, and whether or not the user zoomed in. Content outside the viewport, such as the See Also section in this document, is likely to not be visible onscreen until scrolled into view.
+
+On larger monitors where applications aren't necessarily full screen, the viewport is the size of the browser window.
+On most mobile devices and when the browser is in fullscreen mode, the viewport is the entire screen.
+In fullscreen mode, the viewport is the device screen, the window is the browser window, which can be as big as the viewport or smaller, and the document is the website, which can be much taller or wider than the viewport.
+
+
+
+Flex box is on two axis L to R and Top to Bottom. (Cross Axis )
+
+
+activity #1 
+* 1) set width : 33.333% 
+* 2) set flex-wrap : wrap 
+so it gives the boxes ability to fit the size of box and be able to flex. 
+
+activity #2 
