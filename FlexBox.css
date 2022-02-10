@@ -1,6 +1,6 @@
 /* box colors: */
 .box-1 {
-    background: #e51400; 
+    background: #9D00FF; 
   }
   .box-2 {
     background: #fa6800;
@@ -8,12 +8,12 @@
   .box-3 {
     background: #f0a30a; 
   }
-  .box-4 {background:#aa00ff; ; }
+  .box-4 {background:#CC00FF; ; }
   .box-5 {background: #a4c400;}
-  .box-6 {background: #60a917;}
+  .box-6 {background: #00FF33;}
   .box-7 {background: #00aba9;}
   .box-8 {background: #1ba1e2;} 
-  .box-9 {background: #e3c800;}
+  .box-9 {background: #0033FF}
 
 .box{
     font-size:50px;
@@ -30,3 +30,15 @@
     border: 8px solid black;
     height: 60vh;
 }
+
+
+
+/* #9D00FF
+
+#FFFF33
+#00FF00
+#00FFFF
+#099FFF
+#FF0099
+#6E0DD0
+#CC00FF */
