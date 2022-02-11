@@ -1,0 +1,86 @@
+/* NavBar Items */
+
+.navbar-container {
+    background-color: blue;
+    display: flex;
+    height: 15vh;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+  }
+  .navbar-item {
+    font-size: 50px;
+    color: white;
+    width: 200px;
+    /* width: 33.333333%; */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .navbar-mobile-container{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 500px;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+  }
+
+  
+  /* Call To Action Cards   */
+  .call-to-action-cards-container-1{
+
+  }
+  .call-to-action-cards-container-2{
+      
+  }
+ .card{
+    font-size: 50px;
+    color: white;
+    width: 200px;
+    /* width: 33.333333%; */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; 
+    
+ }
+ 
+
+  .card-1 {
+    background: #9d00ff;
+  }
+  .card-2 {
+    background: #fa6800;
+  }
+  .card-3 {
+    background: #f0a30a;
+  }
+  .card-4 {
+    background: #cc00ff;
+  }
+  .card-5 {
+    background: #a4c400;
+  }
+  .card-6 {
+    background: #00ff33;
+  }
+  .card-7 {
+    background: #00aba9;
+  }
+  .card-8 {
+    background: #1ba1e2;
+  }
+  .card-9 {
+    background: #0033ff;
+  }
+
+  /* Footer Items */
+  .footer-container{
+
+  }
+  .footer-items{
+
+  }
