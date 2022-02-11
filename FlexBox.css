@@ -106,31 +106,4 @@ flex-wrap: wrap & flex-wrap: wrap-reverse
   /********************************* align-items  **********************************/
 }
 
-.navbar-container {
-  background-color: blue;
-  display: flex;
-  height: 15vh;
-  justify-content: space-evenly;
-  color: white;
-  align-items: center;
-}
-.navbar-item {
-  font-size: 50px;
-  color: white;
-  width: 200px;
-  /* width: 33.333333%; */
-  text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
-}
 
-.navbar-mobile-container{
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-  width: 25vw;
-  height: 500px;
-  justify-content: space-evenly;
-  color: white;
-  align-items: center;
-}

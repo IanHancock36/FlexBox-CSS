@@ -40,7 +40,13 @@ NOTE - justify content controls horizontal alignment
 
 
 activity #4 
-* 1) how to use align Items Baseline - this will align the icons due to thier text position. so if you have icons or boxes in diff sizes it will align the center point of each text or icon so gives it alignment when items may not be the same size.
+ * 1) a. give the boxes different font heights
+      b. set it to align-items: center
+      c. take align-items: center off and replace with align-items: stretch 
+      (this will show them how flex works on horizontal to fit the container width.)
+
+* 2) how to use align Items Baseline - this will align the icons due to thier text position. so if you have icons or boxes in diff sizes it will align the center point of each text or icon so gives it alignment when items may not be the same size.
+ 
 
 activity #5 
 * 1) show them you example of how to build a nav bar and footer and cards. 
