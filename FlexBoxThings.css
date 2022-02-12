@@ -81,17 +81,28 @@
 
   /* Footer Items */
   .footer-container{
+    background-color: blue;
+    /* display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    color: white;
+    align-items: flex-end; */
+    height: 50px;
+    margin-top: -50px;
 
   }
   .footer-items{
 
   }
-
+/* 
   @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
+    .navbar-container{
+      flex-direction: column;
+    }
      .navbar-item{
        font-size: 16px;
      }
-  }
+  } */
