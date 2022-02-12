@@ -3,7 +3,7 @@
 .navbar-container {
     background-color: blue;
     display: flex;
-    height: 15vh;
+    height: 150px;
     justify-content: space-evenly;
     color: white;
     align-items: center;
@@ -32,7 +32,9 @@
   
   /* Call To Action Cards   */
   .call-to-action-cards-container-1{
-
+  padding-top: 25px;
+  display: flex;
+ 
   }
   .call-to-action-cards-container-2{
       
@@ -49,22 +51,22 @@
  }
  
 
-  .card-1 {
+  .coa-1-card-1 {
     background: #9d00ff;
   }
-  .card-2 {
+  .coa-1-card-2 {
     background: #fa6800;
   }
-  .card-3 {
+  .coa-1-card-3 {
     background: #f0a30a;
   }
-  .card-4 {
+  .coa2-card-4 {
     background: #cc00ff;
   }
-  .card-5 {
+  .coa-2-card-5 {
     background: #a4c400;
   }
-  .card-6 {
+  .coad-2-card-6 {
     background: #00ff33;
   }
   .card-7 {
@@ -83,4 +85,13 @@
   }
   .footer-items{
 
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+     .navbar-item{
+       font-size: 16px;
+     }
   }

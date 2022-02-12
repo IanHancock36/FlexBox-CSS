@@ -45,7 +45,8 @@ activity #4
       c. take align-items: center off and replace with align-items: stretch 
       (this will show them how flex works on horizontal to fit the container width.)
 
-* 2) how to use align Items Baseline - this will align the icons due to thier text position. so if you have icons or boxes in diff sizes it will align the center point of each text or icon so gives it alignment when items may not be the same size.
+* 2) how to use align Items Baseline - this will align the icons due to thier text position. so if you have icons or boxes in diff sizes it will align the baseline or bottom point of each text or icon so gives it alignment when items may not be the same size.
+    a. align-items: baseline 
  
 
 activity #5 
